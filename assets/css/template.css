@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    height: 140px;
+}
+.container {
+    display: flex;
+    height: 130px;
+    flex:2;
+        
+}
+.logo {
+    display: flex;
+    flex:1;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    flex:1;
+    font-size: 25px;
+    padding-right: 20px;
+    background-color: rgb(0, 0, 0, 0.4);
+
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: white; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover {
+    color:#feb057;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/banner2.png');
+    background-position: center;
+    background-size:cover;   
+    height: 670px; 
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    
+}
+.title_content {
+    
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    padding-left: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+.line_bold {
+    background-color: #484848;
+    display: flex;
+    height: 9px;
+    width: 90px;
+   
+}
+.line {
+    background-color: #d3d3d3;
+    display: flex;
+    width: 605px;
+    height: 5px;
+    margin-top: 3px;
+    margin-right:70px ;
+    
+}
+.space {
+    background-color: black;
+    display: flex;
+    width: 525px;
+    height: 9px;
+    padding-right: 5px;   
+    
+}
+.content3 {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 695px;
+    margin-right: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5px ;
+}
+.content4 {
+    display: flex;
+    justify-content: center;
+    flex:1
+    
+}
+.info_description {
+    margin-bottom: 10px;
+}
+.info_description2 {
+    padding-right: 70px;
+    width: 695px;
+}
+
+.regis {
+    background-color: black;
+    width: 525px;
+    height: 500px;
+    padding-right: 5px;   
+    
+}
+.title_regis {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:16px;
+    padding:15px;
+    padding-left:55px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.subscrible {
+    width: 400px;
+    height: 30px;
+    padding:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.registration {
+    padding-left: 55px;
+}
+.button  {
+    padding-left: 55px;
+}
+.continue {
+    width: 180px;
+    height: 45px;
+    background-color: #9a2121;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.siga {
+    padding-left: 55px;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 18px;
+}
+.icons {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 45px;
+}
+.imgsocial {
+    padding: 10px;
+}
+
+.albuns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    flex:2;
+    width: 525px ;
+    height: 1190px;
+    
+    
+}
+.block {    
+    width: 180px;
+    height: 160px;
+    
+    
+}
+.discos {
+    width: 180px;
+    height: 160px
+}
+figcaption {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:2px;
+    padding-top: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.title_albuns {
+    padding-bottom: 0;
+    padding-top:0;
+    background-color: black;
+    height: 200px;
+    
+}
+.title_albuns h1 {
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: center;
+}
+.songs {
+    text-decoration: none;
+}
+footer {
+    margin-top: 80px;
+    display: flex;
+    height: 60px;
+    justify-content:space-around;
+    background-color: white
+}
+
+#banner3 {
+    display: flex;
+    justify-content: center;
+    background-image:url('../images/rodape.png');
+    background-position: center;
+    background-size:cover;   
+    height: 300px; 
+    
+}
+
+.dev {
+    
+    display: flex;
+    width: 500px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: 150px;
+    text-align: center;
+    padding-left: 280px;    
+    
+}
+
+@media (max-width:1024px) {
+
+    .content4 {
+        flex-direction: column;
+        margin-bottom: -200px;
+        
+    }
+    .content3 {
+        flex-direction: column;
+    }
+    .space {
+        display: none;
+    }
+    .info {
+        width: auto;
+    }
+    .info_description {
+        margin-left: 50px;
+        margin-right: 0;
+        padding-right: 0;    
+    }
+    .info_description2 {
+        width: auto;
+        margin-left: 50px;
+        margin-right: 0;
+        padding-right: 0;
+        flex:1;
+         
+    }
+    .title_content {
+        padding-left: 45px;
+    }
+    .line_bold {
+        width: 250px;
+        margin-left: 50px;
+    }
+    .regis {
+        align-self: center;
+    }
+    .title_albuns {
+        height: 200px;
+        position: relative;
+        top: 550;
+        width: auto;
+        align-self: center;
+        margin-top: 10px;
+        margin-left: 80px;
+    }
+    .albuns {
+        width: auto;
+        height: 800px;
+        padding-bottom:80px;
+        padding-top:80px;
+        align-self: center;
+        
+    }
+    #banner3 {
+        position: relative;
+        top:1000px;
+    }
+}
+@media (max-width:695px) {
+
+    .menu {
+        display: none;
+    }
+    .regis {
+        width: 350px;
+    }
+    .registration {
+        width:150px;
+    }
+    .subscrible {
+        width: 250px;
+    }
+    .title_albuns {
+        width: 355px;
+        margin: 8;
+        
+    }
+    .albuns {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        margin-bottom: 110px;
+    }
+    .block, .discos {
+        width: 140px;
+        height: 120px;
+    }
+    figcaption {
+        font-size: 15px;
+    }
+    .block {
+        
+        padding:18px;
+    }
+    .dev {
+        padding-left: 100px;
+    }
+
+}
